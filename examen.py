@@ -1,8 +1,5 @@
 import streamlit as st
 
-# 1. EL ARCHIVADOR (Nuestra base de datos de preguntas)
-# Cada bloque entre { } es una pregunta distinta. Cada pregunta es un diccionario de 3 entradas (texto, opciones, correcta).
-# Creamos la lista de preguntas:
 preguntas = [
     {
         "texto": "¿Cuál es más rápido?",
