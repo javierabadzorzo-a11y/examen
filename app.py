@@ -94,9 +94,9 @@ if boton_enviar:
     st.header(f"Resultado final: {nota} / 10")
 
     if 5<nota<7:
-    st.text(f"Has puesto {aciertos} preguntas bien. A ver que tal la próxima...")
-    st.balloons()
-elif 1>nota<5:
-    st.text(f"¡Estudia un poco MÁS!")
-elif 7<nota<=10:
-    st.text(f"Grandee, se nota el empollo")
+        st.text(f"Has puesto {aciertos} preguntas bien. A ver que tal la próxima...")
+        st.balloons() # ¡Efecto de globos!
+    elif 1>nota<5:
+        st.text(f"¡Estudia un poco MÁS!")
+    elif 7<nota<=10:
+        st.text(f"Grandee, se nota el empollo")
